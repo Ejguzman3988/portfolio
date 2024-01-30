@@ -1,4 +1,14 @@
+@import "reset.scss";
+
 body {
   background: #121212;
   color: white;
+  min-height: 100svh;
+  margin: 0;
+  font-size: calc(15px + 0.390625vw);
 }
+
+.container {
+  padding: calc(8px + 1.5625vw);
+}
+
