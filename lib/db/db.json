@@ -1,0 +1,140 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "content": "make todos objects",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 2,
+      "content": "create pseudo backend for todos - start w/ db.json",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 3,
+      "content": "style todo page",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 4,
+      "content": "Create navbar",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 5,
+      "content": "Add transition to TODO page",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 6,
+      "content": "Create ChangeLog",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 7,
+      "content": "Add Styling for todo list",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 8,
+      "content": "reverse this list",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 9,
+      "content": "Research change log and follow style for this list",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 10,
+      "content": "strike through todos",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 11,
+      "content": "consider adding commits instead of actual todos",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 12,
+      "content": "Create Zustand store to set up theming",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 13,
+      "content": "Add theme light/dark",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 14,
+      "content": "Create button for theme",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 15,
+      "content": "Look into fonts",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 16,
+      "content": "Consider color schemes",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 17,
+      "content": "revisit homepage",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    }
+  ]
+}
