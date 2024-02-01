@@ -135,6 +135,30 @@
       "createdAt": 1706657813005,
       "updatedAt": 1706657813005,
       "order": null
+    },
+    {
+      "id": 18,
+      "content": "set up ordering in todo",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 19,
+      "content": "Create a way to update and order the todo list",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
+    },
+    {
+      "id": 20,
+      "content": "force slow down fetch to test out suspense",
+      "completed": false,
+      "createdAt": 1706657813005,
+      "updatedAt": 1706657813005,
+      "order": null
     }
   ]
 }
