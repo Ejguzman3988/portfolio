@@ -5,8 +5,12 @@ const TodoItem = ({ todo }: { todo: Todo }) => {
     <li className={todo.completed ? "todo completed" : "todo"}>
       <div className="content">{todo.content}</div>
       <div className="details">
-        <span>Created At: {todo.createdAt.toLocaleString()}</span>
-        <span>Updated At: {todo.updatedAt.toLocaleString()}</span>
+        <span className="created_at">
+          Created At: {todo.createdAt.toLocaleString()}
+        </span>
+        <span className="updated_at">
+          Updated At: {todo.updatedAt.toLocaleString()}
+        </span>
       </div>
     </li>
   );
