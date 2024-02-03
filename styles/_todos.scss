@@ -1,8 +1,14 @@
 #todos {
+  border: red solid;
   .todo {
+    width: 80%;
     .content {
     }
     .details {
+      border: red solid;
+      font-size: 0.85rem;
+      display: flex;
+      justify-content: space-between;
       .created_at {
       }
       .updated_at {

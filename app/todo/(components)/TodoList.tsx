@@ -3,9 +3,10 @@ import TodoItem from "./TodoItem";
 import { fakeDelay } from "@/lib/utils/serverActions";
 
 async function getTodos(): Promise<Todo[]> {
-  const res = await fakeDelay(3000)(
-    fetch("http://localhost:8080/todos", { next: { revalidate: 300 } }),
-  );
+  //const res = await fakeDelay(3000)(
+  const res = await fetch("http://localhost:8080/todos", {
+    next: { revalidate: 300 },
+  });
 
   if (!res.ok) {
     throw new Error("Failed to fetch");
