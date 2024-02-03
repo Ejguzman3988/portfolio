@@ -1,5 +1,5 @@
-import TodoItem from "./TodoItem";
 import { Todo } from "../../(types)/interfaces";
+import TodoItem from "./TodoItem";
 import { fakeDelay } from "@/lib/utils/serverActions";
 
 async function getTodos(): Promise<Todo[]> {
@@ -24,7 +24,7 @@ async function getTodos(): Promise<Todo[]> {
 const TodoList = async () => {
   const todos = await getTodos();
   return (
-    <ul>
+    <ul id="todos">
       {todos.map((todo) => (
         <TodoItem key={todo.id + todo.content.slice(0, 2)} todo={todo} />
       ))}
