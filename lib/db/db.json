@@ -3,7 +3,7 @@
     {
       "id": 1,
       "content": "make todos objects",
-      "completed": false,
+      "completed": true,
       "createdAt": 1706657813005,
       "updatedAt": 1706657813005,
       "order": null

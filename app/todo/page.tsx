@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import TodoList from "./(components)/TodoList";
-import { revalidatePath } from "next/cache";
 
 const Page = () => {
   return (
