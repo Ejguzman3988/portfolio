@@ -14,6 +14,18 @@
     margin: 25px;
 
     display: grid;
+    input {
+      position: static;
+      background-color: #121212;
+      color: white;
+      margin: 10px 0 0 0;
+      display: inline-block;
+      width: 100%;
+      min-height: 2em;
+      max-height: 3em;
+      border: none;
+    }
+
     .content {
     }
     .details {
@@ -82,7 +94,8 @@
     }
   }
 
-  .todo:hover {
+  .todo:hover,
+  .todo.active {
     border: solid 1px #ccc;
     box-shadow: 0px 10px 25px #555;
     transform: scale(1.05);
