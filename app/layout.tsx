@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.scss";
+import { CSPostHogProvider } from "./providers";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,9 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <main>{children}</main>
-      </body>
+      <CSPostHogProvider>
+        <body>
+          <main>{children}</main>
+        </body>
+      </CSPostHogProvider>
     </html>
   );
 }

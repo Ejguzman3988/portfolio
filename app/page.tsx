@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <section id="home">
       <h1>
-        <Link href="/todo">Coming Soon.</Link>
+        <Link href="https://www.linkedin.com/in/eriberto-guzman">
+          Coming Soon.
+        </Link>
       </h1>
     </section>
   );
