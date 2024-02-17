@@ -40,7 +40,7 @@ const TodoItem = ({ todo }: { todo: Todo }) => {
     <li
       className={todo.completed ? "todo completed" : "todo"}
       onClick={(e) => {
-        e.target.classList.add("active");
+        e.currentTarget.classList.add("active");
         setUpdate(true);
       }}
       ref={todoRef}
